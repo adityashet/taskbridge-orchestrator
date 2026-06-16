@@ -1,0 +1,12 @@
+{
+  "name": "aditya",
+  "type": "http_check",
+  "payload": {
+    "student_id": "PES15",
+    "value": "1lakh",
+    "url": "http://localhost:8080/",
+    "expected_status": 200
+  },
+  "timeout_seconds": 10,
+  "max_retries": 2
+}
